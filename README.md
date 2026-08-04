@@ -43,7 +43,7 @@ Today I combine engineering consulting, Tier-3 troubleshooting, technical docume
 
 ## 🏗️ Engineering portfolio
 
-<details open>
+<details>
 <summary><b>🌍 DNS, virtualisation, servers, services, monitoring and testing</b></summary>
 <br>
 
@@ -66,7 +66,7 @@ Today I combine engineering consulting, Tier-3 troubleshooting, technical docume
 
 ### 🌍 Scalable DNS infrastructure
 
-- Authoritative DNS clusters
+- Authoritative DNS
 - Recursive DNS resolvers
 - Reverse DNS zones
 - IPv4 and IPv6
@@ -102,7 +102,7 @@ Today I combine engineering consulting, Tier-3 troubleshooting, technical docume
 - HPE ProLiant Gen6, Gen7, Gen8, Gen9 and Gen10
 - HPE Smart Array and Dell PERC administration
 - HBA/RAID modes, cache, firmware and diagnostics
-- Mellanox 40 GbE server networking
+- Mellanox 40/100 GbE server networking
 - Homelab platforms
 - Chinese ODM/white-label server platforms
 - BIOS, iLO, iDRAC and lifecycle procedures
@@ -172,6 +172,7 @@ Today I combine engineering consulting, Tier-3 troubleshooting, technical docume
 </td>
 </tr>
 </table>
+</details>
 
 <details open>
 <summary><b>🐍 Contribution map animation</b></summary>
@@ -187,7 +188,9 @@ Today I combine engineering consulting, Tier-3 troubleshooting, technical docume
 
 </details>
 
-## 🎯 Current focus
+<details open>
+<summary><b> 🎯 Current focus</b></summary>
+<br>
 
 - Designing and troubleshooting **ISP backbones, BNG/PPPoE/IPoE, CGNAT, MPLS, IPv6, IX/IXP peering and IP transit**.
 - Building and operating **Proxmox VE, Proxmox Datacenter Manager, Proxmox Backup Server, HA clusters, Ceph, distributed storage and performance labs**.
@@ -195,6 +198,8 @@ Today I combine engineering consulting, Tier-3 troubleshooting, technical docume
 - Creating reusable **Docker images, Compose stacks, Shell/Python automation and technical guides**.
 - Managing and troubleshooting **Dell PowerEdge R-Series, HPE ProLiant Gen6–Gen10, homelab and Chinese ODM/white-label server platforms**.
 - Teaching real-world networking, Linux, virtualization, containers and troubleshooting scenarios.
+
+</details>
 
 <details>
 <summary><b>📁 Examples of private repositories and internal labs</b></summary>
@@ -354,7 +359,9 @@ These repositories remain private because they may contain internal deployment s
 </div>
 </details>
 
-## 🧪 Selected engineering projects
+<details>
+<summary><b> 🧪 Selected engineering projects</b></summary>
+<br>
 
 <table>
 <tr>
@@ -423,17 +430,17 @@ Experiments, integrations and upstream-oriented work around network Looking Glas
 
 > 💡 I prioritise projects that transform production experience into reproducible labs, automation and documentation that other network engineers can use.
 
+</details>
+
 ## 📊 GitHub engineering activity
 
-<details open>
+<details>
 <summary><b>🏙️ 3D contribution calendar</b></summary>
 <br>
 
 <p align="center">
   <img width="100%" alt="3D GitHub contribution calendar" src="./profile-3d-contrib/profile-night-rainbow.svg">
 </p>
-
-</details>
 
 <p align="center">
   <picture>
@@ -447,6 +454,8 @@ Experiments, integrations and upstream-oriented work around network Looking Glas
     <img width="49%" alt="Most used languages in public repositories" src="./profile/top-langs-light.svg">
   </picture>
 </p>
+
+</details>
 
 ## 🧑‍🏫 Teaching, consulting & community
 
