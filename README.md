@@ -173,6 +173,20 @@ Today I combine engineering consulting, Tier-3 troubleshooting, technical docume
 </tr>
 </table>
 
+<details open>
+<summary><b>🐍 Contribution map animation</b></summary>
+<br>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg">
+    <img width="100%" alt="Animated GitHub contribution map" src="./profile/snake.svg">
+  </picture>
+</p>
+
+</details>
+
 ## 🎯 Current focus
 
 - Designing and troubleshooting **ISP backbones, BNG/PPPoE/IPoE, CGNAT, MPLS, IPv6, IX/IXP peering and IP transit**.
@@ -411,6 +425,15 @@ Experiments, integrations and upstream-oriented work around network Looking Glas
 
 ## 📊 GitHub engineering activity
 
+<details open>
+<summary><b>🏙️ 3D contribution calendar</b></summary>
+<br>
+
+<p align="center">
+  <img width="100%" alt="3D GitHub contribution calendar" src="./profile-3d-contrib/profile-night-rainbow.svg">
+</p>
+
+</details>
 
 <p align="center">
   <picture>
@@ -424,30 +447,6 @@ Experiments, integrations and upstream-oriented work around network Looking Glas
     <img width="49%" alt="Most used languages in public repositories" src="./profile/top-langs-light.svg">
   </picture>
 </p>
-
-<details open>
-<summary><b>🐍 Contribution map animation</b></summary>
-<br>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg">
-    <img width="100%" alt="Animated GitHub contribution map" src="./profile/snake.svg">
-  </picture>
-</p>
-
-</details>
-
-<details open>
-<summary><b>🏙️ 3D contribution calendar</b></summary>
-<br>
-
-<p align="center">
-  <img width="100%" alt="3D GitHub contribution calendar" src="./profile-3d-contrib/profile-night-rainbow.svg">
-</p>
-
-</details>
 
 ## 🧑‍🏫 Teaching, consulting & community
 
