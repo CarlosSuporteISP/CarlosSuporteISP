@@ -1,6 +1,8 @@
 name: Generate contribution snake
 
 on:
+  schedule:
+    - cron: "20 6 * * *" # 03:20 in Brazil (UTC-3)
   workflow_dispatch:
   push:
     branches:
