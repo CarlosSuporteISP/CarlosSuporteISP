@@ -188,7 +188,7 @@ Today I combine engineering consulting, Tier-3 troubleshooting, technical docume
 
 </details>
 
-<details open>
+<details>
 <summary><b> 🎯 Current focus</b></summary>
 <br>
 
