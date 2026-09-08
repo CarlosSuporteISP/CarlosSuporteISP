@@ -2,6 +2,8 @@ name: Generate contribution snake
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "27 */6 * * *"
   push:
     branches:
       - main
@@ -28,6 +30,7 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.PROFILE_PAT || github.token }}
           outputs: |
             profile/snake.svg?palette=github-light
             profile/snake-dark.svg?palette=github-dark

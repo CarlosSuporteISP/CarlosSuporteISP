@@ -2,6 +2,8 @@ name: Update profile cards
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "37 */6 * * *"
   push:
     branches:
       - main
@@ -38,7 +40,7 @@ jobs:
             hide_border=true&
             locale=en
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_PAT || github.token }}
           fail_on_error: true
 
       - name: Generate light stats card
@@ -55,7 +57,7 @@ jobs:
             hide_border=true&
             locale=en
           path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_PAT || github.token }}
           fail_on_error: true
 
       - name: Generate dark language card
@@ -70,7 +72,7 @@ jobs:
             bg_color=00000000&
             hide_border=true
           path: profile/top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_PAT || github.token }}
           fail_on_error: true
 
       - name: Generate light language card
@@ -85,7 +87,7 @@ jobs:
             bg_color=00000000&
             hide_border=true
           path: profile/top-langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_PAT || github.token }}
           fail_on_error: true
 
       - name: Commit generated cards
