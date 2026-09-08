@@ -439,7 +439,7 @@ Experimentos, integrações e trabalhos orientados ao upstream em plataformas de
 <br>
 
 <p align="center">
-  <img width="100%" alt="Calendário 3D de contribuições do GitHub" src="./profile-3d-contrib/profile-night-rainbow.svg">
+  <img width="100%" alt="Calendário 3D de contribuições do GitHub" src="./profile-3d-contrib/profile-night-rainbow.svg?v=232">
 </p>
 
 <p align="center">

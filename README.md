@@ -439,7 +439,7 @@ Experiments, integrations and upstream-oriented work around network Looking Glas
 <br>
 
 <p align="center">
-  <img width="100%" alt="3D GitHub contribution calendar" src="./profile-3d-contrib/profile-night-rainbow.svg">
+  <img width="100%" alt="3D GitHub contribution calendar" src="./profile-3d-contrib/profile-night-rainbow.svg?v=232">
 </p>
 
 <p align="center">
