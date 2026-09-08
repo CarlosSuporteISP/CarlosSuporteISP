@@ -39,5 +39,11 @@ jobs:
           git add profile-3d-contrib/
           git diff --cached --quiet && exit 0
           git commit -m "chore: update 3D contribution calendar"
-          git pull --rebase
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase
+            if git push; then
+              exit 0
+            fi
+            sleep $((attempt * 5))
+          done
+          exit 1
