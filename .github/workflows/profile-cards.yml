@@ -3,7 +3,7 @@ name: Update profile cards
 on:
   workflow_dispatch:
   schedule:
-    - cron: "37 */6 * * *"
+    - cron: "37 */12 * * *"
   push:
     branches:
       - main
